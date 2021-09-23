@@ -1,4 +1,4 @@
-import { FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaTwitter, FaTerminal } from "react-icons/fa";
 import { RiSendPlaneFill } from "react-icons/ri";
 import { useEffect, useRef } from "react";
 
@@ -67,6 +67,13 @@ const Home = () => {
               className="border border-black p-2.5 rounded cursor-pointer hover:bg-black hover:text-white"
             >
               <FaTwitter size={15} />
+            </a>
+            <a
+              href="https://terminal.samirprajapati.me/"
+              rel="noopener noreferrer"
+              className="border border-black p-2.5 rounded cursor-pointer hover:bg-black hover:text-white"
+            >
+              <FaTerminal size={15} />
             </a>
           </div>
           <a
